@@ -73,10 +73,6 @@ var sortedCombatantKey = Object.keys(combatants).sort(function(a, b) { return co
 for (var i = 0; i < sortedCombatantKey.length; ++i) {
     sortedCombatants[sortedCombatantKey[i]] = combatants[sortedCombatantKey[i]];
 }
-function zeroPad(nr,base){
-  var  len = (String(base).length - String(nr).length)+1;
-  return len > 0? new Array(len).join('0')+nr : nr;
-}
 
 var encounter = {};
 encounter["duration"] = (duration < 600 ? "0" : "") + Math.floor(duration / 60) + ":" + (duration % 60 < 10 ? "0" : "") + Math.floor(duration % 60);
