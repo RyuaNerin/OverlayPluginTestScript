@@ -13,20 +13,47 @@ var jobs = {
     "음유시인": "Brd",
     //"쌍검사": "Rog",
     "닌자": "Nin",
-    //"비술사": "Acn",
+    "비술사": "Acn",
+    "비술사-카벙클": "Acn",
+    "비술사-토파즈": "Acn",
     "소환사": "Smn",
+    "소환사-가루다": "Smn",
+    "소환사-타이탄": "Smn",
+    "소환사-이프리트": "Smn",
     //"주술사": "Thm",
     "흑마도사": "Blm",
     "기공사": "Mch",
+    "기공사-룩": "Mch",
+    "기공사-비숍": "Mch",
 
     //"환술사": "Cnj",
     "백마도사": "Whm",
     "학자": "Sch",
+    "학자-에오스": "Sch",
+    "학자-셀레네": "Sch",
     "점성술사": "Ast",
 
     "리미트 브레이크": "",
 
-    "초코보 (유저)": "",
+    "목수": "Crp",
+
+    "목수-초코보": "Crp",
+
+    "초코보 (목수)": "",
+
+    "요정 에오스 (학자-에오스)": "",
+    "요정 셀레네 (학자-셀레네)": "",
+
+    "카벙클 에메랄드 (비술사-카벙클)": "",
+    "토파즈 에메랄드 (비술사-토파즈)": "",
+
+    "가루다 에기 (소환사-가루다)": "",
+    "타이탄 에기 (소환사-타이탄)": "",
+    "이프리트 에기 (소환사-이프리트)": "",
+
+    "자동포탑 룩 (기공사-룩)": "",
+    "자동포탑 룩 (기공사-비숍)": "",
+
 }
 
 var duration = Math.floor((Math.random() * 300) + 100);
@@ -47,7 +74,7 @@ for (var name in jobs) {
     combatant["misses"] = Math.floor((Math.random() * 1000) + 1);
     combatant["hitfailed"] = Math.floor((Math.random() * 1000) + 1);
     combatant["crithit"] = Math.floor((Math.random() * combatant["swings"]) + 1);
-    combatant["crithit%"] = Math.round(combatant["crithit"] / combatant["swings"] * 100); + "%";
+    combatant["crithit%"] = Math.round(combatant["crithit"] / combatant["swings"] * 100) + "%";
     combatant["damagetaken"] = Math.floor((Math.random() * 1000) + 1);
     combatant["healstaken"] = Math.floor((Math.random() * 1000) + 1);
     combatant["ParryPct"] = Math.floor((Math.random() * 100) + 1) + "%";
