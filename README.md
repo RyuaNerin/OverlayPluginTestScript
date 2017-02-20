@@ -6,5 +6,6 @@
 
 4. [`tester.js`](tester.js)  혹은 [`tester.min.js`](tester.min.js) 파일의 내용을 복사하여 붙여넣으세요
 
+**모든 값은 랜덤입니다**
 
 - MIT LICNESE.
