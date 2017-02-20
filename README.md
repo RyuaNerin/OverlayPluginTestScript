@@ -4,7 +4,7 @@
 
 3. `Console` 탭으로 로 이동 후
 
-4. tester.js  혹은 tester.min.js 파일의 내용을 복사하여 붙여넣으세요
+4. [`tester.js`](tester.js)  혹은 [`tester.min.js`](tester.min.js) 파일의 내용을 복사하여 붙여넣으세요
 
 
 - MIT LICNESE.
